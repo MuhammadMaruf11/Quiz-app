@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="img/favicon.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App</title>
+  </head>
+
+  <body>
+    <!-- 1st page start -->
+
+    <div class="myQuizApp">
+      <div class="img">
+        <img src="img/quiz.jpg" alt="img" />
+      </div>
+      <hr />
+      <div class="text">
+        <h3>Quiz App With Fixed Time</h3>
+        <p>
+          This is a child application for our next generation chlidrens, that
+          can they know various things of our Country in English...
+        </p>
+        <h3>Things of Bangladesh</h3>
+        <p>
+          Here is 5 question, what is "National Bird", "National fruit",
+          "National flower", "Capital of Bangladesh" and "National poet". We'll
+          upgrade our application day by day for better performance so keep it
+          touch.
+        </p>
+      </div>
+      <div class="myBtn">
+        <button class="startQuiz">Start Quiz</button>
+      </div>
+    </div>
+
+    <!-- 1st page end -->
+
+    <!-- 2nd page start -->
+
+    <div class="myQuizApp ruleBox">
+      <div class="text rulesTitle">
+        <h3>Some Rules of the Quiz</h3>
+      </div>
+      <hr />
+      <div class="rulesList">
+        <ol>
+          <li>
+            You will have only <span> <i>15 secods</i> </span> per each
+            question.
+          </li>
+          <li>Once you select your answer, it can't be undone.</li>
+          <li>You can't select any option once time goes off.</li>
+          <li>You can't exit from the Quiz while you're playing.</li>
+          <li>You'll get points on the basis of your correct answers.</li>
+        </ol>
+      </div>
+      <div class="buttons">
+        <button class="exitQuiz">Exit Quiz</button>
+      </div>
+      <div class="myBtn">
+        <button class="continueQuiz">Continue</button>
+      </div>
+    </div>
+
+    <!-- 2nd page end -->
+
+    <!-- 3rd page start -->
+
+    <div class="myQuizApp firstQuestion">
+      <div class="questionsHeader">
+        <div class="title"><h4>Start Exam</h4></div>
+        <div class="timeCount">
+          <div class="timeLeft">Time Left</div>
+          <div class="seconds">15</div>
+        </div>
+        <div class="timeLine"></div>
+      </div>
+
+      <div class="section">
+        <div class="questionTitle"></div>
+        <div class="clueList">
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="totalQuestion"></div>
+      <div class="myBtn">
+        <button class="nextQuestion">Next Question</button>
+      </div>
+    </div>
+
+    <!-- 3rd page end -->
+
+    <!-- result page start  -->
+
+    <div class="myQuizApp resultBox">
+      <div class="resultImg">
+        <img src="img/result.jpg" alt="" />
+      </div>
+      <div class="resultText">
+        <div class="completeText"><h1>You have finished this exam</h1></div>
+        <div class="scoreText"></div>
+      </div>
+      <!-- <div class="buttons">
+        <button class="restartBtn">Replay</button>
+      </div> -->
+      <div class="myBtn">
+        <button class="quitQuiz">Start Again</button>
+      </div>
+    </div>
+
+    <!-- result page end  -->
+
+    <script src="index.js"></script>
+  </body>
+</html>
